@@ -11,7 +11,7 @@
   
   header{
       height: 105px;
-      background-image: url(header_bg.png);   
+      background-image: url(images/header_bg.png);   
   }
 
   .box{
@@ -72,6 +72,6 @@
 
   footer{
     height: 38px;
-    background-image: url(footer_bg.png);    
+    background-image: url(images/footer_bg.png);    
 }
  
