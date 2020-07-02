@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: Arial;
+    direction: rtl;
+    text-align: right;
+  }
+  
+  header{
+      height: 105px;
+      background-image: url(header_bg.png);   
+  }
+
+  .menu{
+      height: 33px;
+      margin-top: -33px;     
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  
