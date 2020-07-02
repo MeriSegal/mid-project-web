@@ -6,6 +6,7 @@
     font-family: Arial;
     direction: rtl;
     text-align: right;
+    margin: 0px;
   }
   
   header{
@@ -13,13 +14,64 @@
       background-image: url(header_bg.png);   
   }
 
-  .menu{
-      height: 33px;
-      margin-top: -33px;     
+  .box{
+      text-align: left;
+      padding: 20px;
+        /* temp padding */
   }
 
-  .row {
-    display: flex;
+  #klick{
+      display: inline;
   }
-  
-  
+ 
+  .menu{
+      height: 44px;
+      margin-top: -44;
+  }
+        /* menu content start */
+  .drop{
+    position: relative;
+    padding: 5px;  
+  }
+
+  ul{
+    list-style: none;
+  }
+ 
+  .drop-con{
+    position: absolute;
+    display: none;
+    background-color: rgb(155, 152, 152);   
+  }
+
+  .drop:hover> .drop-con{
+      display: block;
+  }
+        /* menu end */
+
+ .row {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+    
+  .col{
+    width: 33.3%;
+  }
+
+  .col> .up-row{
+    border: blue solid;
+    /* temp border */
+    height: 60%;
+  }  
+  .col> .d-row{
+    border: blue solid;
+        /* temp border */
+    height: 40%;
+  }  
+
+  footer{
+    height: 38px;
+    background-image: url(footer_bg.png);    
+}
+ 
