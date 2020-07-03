@@ -56,6 +56,11 @@
   .drop:hover> .drop-con{
       display: block;
   }
+
+  .drop> a:hover{
+    text-decoration: underline;
+    color: rgb(0, 81, 161);
+  }
         /* menu end */
 
  .row {
@@ -72,16 +77,58 @@
   }
 
   .col> .up-row{
-    border: blue solid;
-    /* temp border */
-    height: 60%;
-  }  
-  .col> .d-row{
-    border: blue solid;
-        /* temp border */
-    height: 40%;
+    position: relative;
+    width: 293px;
+    height: 355px;
+    margin-top: 20px;
+    margin-right: 10px;
   }  
 
+  .up-row> img{    
+    width: 293px;
+    height: 355px;
+    border-bottom-right-radius: 2em;
+  }
+
+  .up-row> .in-box{    
+    position: absolute;
+    background-color: rgba(122, 121, 121, 0.904);
+    right: 10px;
+    bottom: 10px;
+    padding: 10px;
+    padding-top: 0px;
+    width: 250px;
+    color: #ffffff;
+    font-size: 0.8em;
+    border-bottom-right-radius: 2em;
+  }
+
+  .in-box> p, .in-box> h3{
+    margin-right: 4px;
+    margin-bottom: 0px;
+    margin-top: 4px;
+  }
+  
+  .more-con{
+    text-align: left;
+  }
+
+  .more-con> a{
+    text-align: left;
+    text-decoration: underline;
+  }
+
+  .more-con> a:hover{
+    color: rgb(0, 81, 161);
+  }
+
+  .col> .d-row{
+    position: relative;
+    border: blue solid;
+        /* temp border */
+    margin:  20;
+  }  
+  
   a{
     text-decoration: none;
     color: aliceblue;
