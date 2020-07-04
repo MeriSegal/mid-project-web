@@ -62,7 +62,7 @@
     margin-top: -44px;
   }
 
-        /* menu content start */
+  /* menu content start */
   .drop{
     position: relative;
     margin-right: 10px;
@@ -87,7 +87,7 @@
     margin-left: 6px;
     white-space: nowrap; 
     padding-bottom: 10px;
-    }
+  }
 
   .m-col> li:nth-of-type(odd){
     padding-bottom: 3px;
@@ -127,9 +127,9 @@
   .drop:hover> .drop-con{
     display: block;
     z-index:9999;
-  }
- 
-        /* menu end */
+  } 
+  /* menu end */
+
 
   .content{
     height: 100%;
@@ -141,7 +141,8 @@
     color: #ffffff;
     padding: 5px;
   }
-   
+
+  /* start index style */
   .col> .up-row{
     position: relative;
     width: 293px;
@@ -248,7 +249,6 @@
   .way-con-box> .way-con{
     padding-right: 4px;
     margin-bottom: 6px;
-
   }
 
   .yelow{
@@ -266,8 +266,16 @@
     left: 15;
     bottom: 10;
   }
+  /* end index style */
+ 
 
-  
+  /* start contact form style */
+
+
+
+
+  /* end contact form style */
+
   footer{
     position: fixed;
     bottom: 0;
