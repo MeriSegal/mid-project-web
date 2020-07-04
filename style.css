@@ -14,7 +14,7 @@
     background-image: url(images/header_bg.png);   
   }
 
-  .box{
+  .s-box{
     text-align: left;
     padding: 20px;
     margin-left: 20px;
@@ -52,23 +52,62 @@
     justify-content: center;
   }
  
-  .drop-con{
-    position: absolute;
-    display: none;
-    background-color: rgb(155, 152, 152);   
+  .m-col{
+    display: block;
+    margin-top: 10px;
+    padding: 0px;
   }
 
-  .drop:hover> .drop-con{
-      display: block;
+  .m-col> li> a{
+    padding-right: 6px;
+    padding-left:100%;
+    margin-left: 6px;
+    white-space: nowrap; 
+    padding-bottom: 10px;
+    }
+
+  .m-col> li:nth-of-type(odd){
+    padding-bottom: 3px;
+    padding-top: 5px;
+    background-color: #909090; 
   }
 
-  .drop> a:hover{
+  .m-col> li:hover{
+    background-color: rgb(199, 196, 196);
+  }
+
+  .m-col> li:first-child{
+    background-image: url(images/menu_dropdown_bg.png);
+    background-repeat: repeat-x;
+  }
+
+  .m-col> li:first-child:hover{
+    background-image: url();
+    background-color: rgb(199, 196, 196);
+  }
+
+  a:hover{
     text-decoration: underline;
     color: rgb(0, 81, 161);
   }
+
+  .sep-line{
+    background-image: url(images/menu_dropdown_sep.png);
+    height: 1px;
+  }
+
+  .drop-con{
+    position: absolute;
+    display: none;  
+  }
+
+  .drop:hover> .drop-con{
+    display: block;
+    z-index:9999;
+  }
+ 
         /* menu end */
 
- 
   .content{
     height: 100%;
     justify-content: center;
