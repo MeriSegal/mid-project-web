@@ -46,7 +46,7 @@
   .logo> img{
     position: absolute; 
     top: -44;
-    right: -150 ;
+    right: -120 ;
   }
 
   .menu{
@@ -177,6 +177,7 @@
 
   .more-con> a{
     text-decoration: underline;
+    padding-left: 15px;
   }
 
   .in-box-d> .more-con> a, .way-con> a{
@@ -184,7 +185,17 @@
   }
 
   .more-con> a:hover{
-    color: rgb(0, 81, 161);
+    color: rgb(0, 81, 161);    
+  }
+
+  .more-con{
+    background-image:  url(images/read_more_white.png);
+    background-repeat: no-repeat;
+  }
+
+  .more-con:hover{
+    background-image:  url(images/read_more_blue.png);
+    background-repeat: no-repeat;
   }
 
   .col> .d-row{
@@ -227,7 +238,19 @@
   }
 
   .way-con-box> .way-con{
-    padding: 4px;
+    padding-right: 4px;
+    margin-bottom: 6px;
+
+  }
+
+  .yelow{
+    background-image:  url(images/read_more_yellow.png);
+    background-repeat: no-repeat;
+  }
+
+  .yelow:hover{
+    background-image:  url(images/read_more_blue.png);
+    background-repeat: no-repeat;
   }
 
   .way-box> img{
