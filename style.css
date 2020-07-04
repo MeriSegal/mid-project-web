@@ -11,33 +11,47 @@
   
   header{
     height: 105px;
-    background-image: url(images/header_bg.png);   
+    background-image: url(images/header_bg.png); 
   }
 
   .s-box{
-    text-align: left;
+    position: absolute;
+    top: 5;
     padding: 20px;
-    margin-left: 20px;
+    font-size: 0.9em;
+    white-space: nowrap; 
+  }
 
+  .s-box> a{
+    margin-right: 470px;
+  }
+
+  #search{
+    border: white;
+    padding: 2px;
+    border-top-right-radius: 8px;
+    margin-right: 10px;
   }
 
   #klick{
-    display: inline;
+    position: absolute;
+    left:-5;
+    bottom: 15;
   } 
 
   .row {
     display: flex;
   }
 
-  .menu{
-    height: 44px;
-    margin-top: -44px;
-  }
-
   .logo> img{
     position: absolute; 
     top: -44;
     right: -150 ;
+  }
+
+  .menu{
+    height: 44px;
+    margin-top: -44px;
   }
 
         /* menu content start */
@@ -50,6 +64,7 @@
   ul{
     list-style: none;
     justify-content: center;
+    white-space: nowrap; 
   }
  
   .m-col{
