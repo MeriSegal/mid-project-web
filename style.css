@@ -263,28 +263,74 @@
 
   .way-box> img{
     position: absolute;
-    left: 15;
-    bottom: 10;
+    left: 15px;
+    bottom: 10px;
   }
   /* end index style */
  
 
   /* start contact form style */
 
+.col-f{
+  margin-top: 30px;
+  font-size: 0.8em;
+}
 
+.grey> a{
+  margin-right: -5px;
+  color: rgb(105, 103, 103);
+}
+
+.grey> a:hover{
+  color: rgb(0, 81, 161);    
+}
+
+.col1{
+  position: relative;
+  border-top:1px rgb(185, 185, 185) solid;
+}
+
+.col1> .grey{ 
+  position: absolute;
+  top: 8;
+  right: 12;
+}
+
+.col-f> .form-box{
+  margin-right: 20px;
+  color: rgb(105, 103, 103);
+}
+
+
+
+.form-title{
+  margin-bottom: 10px;
+  margin-left: 15px;
+  width: 425px;
+  border-bottom:1px rgb(185, 185, 185) solid;
+}
+
+.form-title> h4{
+  margin-bottom: 2px;
+}
+
+.up-row-f{
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
 
 
   /* end contact form style */
 
-  footer{
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 38px;
-    background-image: url(images/footer_bg.png); 
-    padding: 10px; 
-    justify-content: center;
-  }
+footer{
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: 38px;
+  background-image: url(images/footer_bg.png); 
+  padding: 10px; 
+  justify-content: center;
+}
 
  
