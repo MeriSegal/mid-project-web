@@ -33,6 +33,14 @@
     margin-right: 10px;
   }
 
+  input::placeholder{
+    color: black;
+  }
+
+  input:focus::placeholder{
+    color: transparent;
+  }
+
   #klick{
     position: absolute;
     left:-5;
