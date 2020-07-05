@@ -273,6 +273,8 @@
 
 .col-f{
   margin-top: 30px;
+  font-size: 0.8em;
+
 }
 
 .grey> a{
@@ -312,13 +314,51 @@
   border-bottom:1px rgb(185, 185, 185) solid;
 }
 
-.form-title> h3{
+.form-title> h2{
   margin-bottom: 2px;
 }
 
+.in-box-form{
+  position: absolute;
+  top: 55;
+  right: 25;
+}
+.in-box-form> h4{
+  margin-top: -10px;
+  margin-bottom: -5px;
+}
+
+textarea{
+  font-family: Arial;
+  color: rgb(105, 103, 103);
+}
+
+.button{
+  position: absolute;
+  left: 5;
+  margin-top: -5px;
+  padding: 2px;
+  border-top-right-radius: 4px;
+  background-image: linear-gradient(rgb(71, 184, 236) ,20% , rgb(38, 49, 148) );
+}
+
+.button:hover{
+  background-image: linear-gradient(rgb(224, 236, 55) ,20% , rgb(248, 88, 39) );
+}
+
+.button> a:hover{
+  text-decoration: none;
+  color: rgb(39, 38, 38);
+}
 
 
-
+form> div{
+  display: flex;
+  width: 250px;
+  margin-right: 40px;
+  margin-bottom: 5px;
+  justify-content: space-between;
+}
 
 .up-row-f{
   position: relative;

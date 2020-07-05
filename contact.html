@@ -16,7 +16,7 @@
                     <a href="" id="klick"><img src="images/search_button.png" alt="search"></a>
                 </div>
                 <div class="drop logo"><img src="images/paz_logo.png" alt="logo"></div>
-                <li class="drop"><a href=""><img src="images/menu_home.png" alt="home"> </a></li>
+                <li class="drop"><a href="index.html"><img src="images/menu_home_black.png" alt="home"> </a></li>
                 <div><img src="images/menu_sep.png" alt=""></div>
                 <li class="drop">
                     <a href="">אודות</a>
@@ -142,14 +142,38 @@
                 <a href="index.html">עמוד הבית</a>
                 <span>&gt; צור קשר</span>
                 <div class="form-title">
-                    <h3>צור קשר</h3>
+                    <h2>צור קשר</h2>
                     <div></div>
                 </div>
                 <div>
                     <img src="images/contact_form_bg.png" alt="">
-                    <form action="">
-
-                    </form>
+                    <div class="in-box-form">
+                        <h2 class="blue">צור קשר</h2> 
+                        <h4>ליצירת קשר עם קשרי לקוחות אנא מלאו את הפרטים הבאים ואנו <br> נשמח לעמוד לרשותכם: </h4>
+                        <p>* השדות המסומנים בכוכבית (*) הינם שדות חובה</p>
+                        <form>                        
+                            <div>
+                                <label for="fname">* שם פרטי </label>
+                                <input id="fname" type="text" name="fname">
+                            </div>
+                            <div>
+                                <label for="lname">* שם משפחה </label>
+                                <input id="lname" type="text" name="lname">
+                            </div>
+                            <div>
+                                <label for="phone">* טלפון </label>
+                                <input id="phone" type="text" pattern="[0-9]" name="phone">
+                            </div>
+                            <div>
+                                <label for="mail">* E-mail </label>
+                                <input id="mail" type="email" name="mail">
+                            </div>
+                            <div>
+                                <textarea name="comment" id="comment" cols="40" rows="7"> תוכן הפניה </textarea>
+                            </div>
+                        </form>
+                        <div class="button"><a href="">שלח</a> </div>
+                    </div>
                 </div>
             </div>
         </div>
