@@ -273,7 +273,6 @@
 
 .col-f{
   margin-top: 30px;
-  font-size: 0.8em;
 }
 
 .grey> a{
@@ -296,12 +295,15 @@
   right: 12;
 }
 
-.col-f> .form-box{
-  margin-right: 20px;
+.grey{
   color: rgb(105, 103, 103);
+  font-size: 0.9em;
 }
 
-
+.col-f> .form-box{
+  position: relative;
+  margin-right: 20px;
+}
 
 .form-title{
   margin-bottom: 10px;
@@ -310,16 +312,55 @@
   border-bottom:1px rgb(185, 185, 185) solid;
 }
 
-.form-title> h4{
+.form-title> h3{
   margin-bottom: 2px;
 }
 
+
+
+
+
 .up-row-f{
+  position: relative;
   margin-top: 50px;
   margin-bottom: 30px;
 }
 
+.d-row-f{
+  position: relative
+}
 
+.up-row-f> .details, .d-row-f> .more{
+  position: absolute;
+  top: 0;
+  right: 25;
+}
+
+.up-row-f> .details> p{
+  margin-top: -18px;
+}
+
+.up-row-f> .details> h5{
+  margin-top: -5px;
+}
+
+.d-row-f> .more> h5{
+  margin-top: 1px;
+  margin-bottom: 1;
+}
+
+.more> a{
+  color: blue;
+  margin-right: -5px;
+}
+
+.more> a:hover{
+  color: rgb(0, 81, 161);  
+}
+
+.blue{
+  color: rgb(0, 81, 161);
+}
   /* end contact form style */
 
 footer{
