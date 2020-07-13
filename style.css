@@ -59,7 +59,7 @@
 
   .menu{
     height: 44px;
-    margin-top: -44px;
+    padding-top: 60px;
   }
 
   /* menu content start */
@@ -132,7 +132,6 @@
 
 
   .content{
-    height: 100%;
     justify-content: center;
   }
 
@@ -200,6 +199,7 @@
   .more-con{
     background-image:  url(images/read_more_white.png);
     background-repeat: no-repeat;
+    background-position: 1px;
   }
 
   .more-con:hover{
